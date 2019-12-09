@@ -4,7 +4,7 @@
   font-family:sans-serif;/*change font family to sans-sefir*/
 }
 p{
-    color: #0000FF;
+
     font-size:12px;/*change font size to 12px*/
     text-decoration:line-through;
 }
@@ -14,11 +14,26 @@ h1{
     text-transform: uppercase; /*makes things uppercase*/
     margin: 20px; /*gives 20px of space*/
     padding: 40px;
-    
+
 }
 /*change header h1 and h2 to gray*/
 h2{
-    color:#0000ff;
+    
     background-color: #888888;
     text-decoration:underline;/*use text decoration to underline the text*/
 }
+/*add an ID selector for #intro */
+#intro{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+/*add an class selector for spotlight*/
+.spotlight{
+  background-color: #fefe22;
+}
+
+h2,p{
+  color:#0f3b20;
+}
+/*https://www.htmldog.com/guides/css/intermediate/grouping/*/
