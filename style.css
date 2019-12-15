@@ -3,8 +3,11 @@
 *{/*change entire page*/
   font-family:sans-serif;/*change font family to sans-sefir*/
 }
+body{
+	    background: white url(https://www.pngfind.com/pngs/m/10-100683_scpinkcolor-sticker-courage-the-cowardly-dog-clipart-hd.png) repeat top left;
+	
+}
 p{
-
     font-size:12px;/*change font size to 12px*/
     text-decoration:line-through;
 }
@@ -35,5 +38,14 @@ h2{
 
 h2,p{
   color:#0f3b20;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
 }
 /*https://www.htmldog.com/guides/css/intermediate/grouping/*/
